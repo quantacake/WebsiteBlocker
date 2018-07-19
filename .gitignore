@@ -1,0 +1,7 @@
+
+# temporary hosts file.
+*hosts_temp
+
+# all swp + swo files
+*.swp
+*.swo
