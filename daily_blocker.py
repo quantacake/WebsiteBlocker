@@ -43,7 +43,7 @@ def site_blocker():
                 f.seek(0)
                 for line in content:
                     if not any(website in line for website in website_list):
-                        # if website is not in the current line, then rewrite the line. else DO NOT rewrite the line. E.g. remove it.
+                        # if website is not in the current line, then rewrite the line. else DO NOT rewrite the line. 
                         f.write(line)
                     else:
                         print(line, 'has been deleted')
